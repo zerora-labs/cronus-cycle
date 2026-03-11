@@ -1,94 +1,109 @@
 # CronusCycle
 
+[![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
+[![zh-cn](https://img.shields.io/badge/lang-zh--cn-green.svg)](README.zh-CN.md)
+
 **The Decision Audit Middleware**
 
-CronusCycle 是一个开源中间件，通过实时噪声过滤与逻辑完整性审计，帮助高净值个人与企业做出更可靠的决策。其核心可视化模块 **Galaxy Engine** 将决策过程映射为星系动态，让每一次判断的轨迹清晰可见。
+CronusCycle is an open-source middleware that helps high-net-worth individuals and enterprises make more reliable decisions through real-time noise filtering and logical integrity auditing. Its core visualization module, the **Galaxy Engine**, maps the decision-making process into galactic dynamics, making the trajectory of every judgment vividly clear.
 
-## ✨ 核心特性
-- **智能噪声过滤**：基于机器学习的异常检测模型，动态识别并过滤高频噪声，支持自定义训练与部署。
-- **可解释决策审计**：利用可解释 AI 技术，为每条决策路径生成自然语言审计日志，确保逻辑透明。
-- **自适应优化**：通过在线学习算法，根据实时反馈自动调整过滤阈值，持续提升决策完整性。
-- **可视化增强**：前端仪表盘集成 AI 分析结果，实时展示异常评分、趋势预测与置信区间。
-- **跨平台部署**：借助 Capacitor，可将管理界面打包为移动 App。
+## ✨ Key Features
+- **Intelligent Noise Filtering**: Leverages machine learning-based anomaly detection models to dynamically identify and filter high-frequency noise, supporting custom training and deployment.
 
-## 🌌 星系引擎：决策可视化新维度
+- **Explainable Decision Audit**: Utilizes explainable AI technology to generate natural language audit logs for each decision path, ensuring logical transparency.
 
-> 开源版提供基础星系渲染（2D轨道、基础天体分类），企业版包含增强功能（3D星系、实时引力模拟、自定义天体类型、合规报告导出）。
+- **Adaptive Optimization**: Automatically adjusts filtering thresholds based on real-time feedback through online learning algorithms, continuously enhancing decision integrity.
 
-CronusCycle 的核心可视化引擎 **Galaxy Engine** 将决策过程映射为天体物理现象：
+- **Visualization Enhancement**: The frontend dashboard integrates AI analysis results, displaying anomaly scores, trend predictions, and confidence intervals in real-time.
 
-- **引力场**：外部影响因素（市场、对手、政策）对决策轨道的拉扯
-- **天体分类**：信息源自动解析为：
-  - **恒星**：核心决策者（CEO、董事会）
-  - **行星**：长期执行层/关键影响者（CFO、部门负责人）
-  - **彗星**：外部顾问、临时信息
-  - **流星**：噪音、一次性事件
-  - **黑洞**：高风险点、未知领域
-- **轨道追踪**：完整记录决策路径，可回溯每一次“引力作用”导致的偏移
-- **时间回放**：拖动时间轴，观察决策星系从初始化到当前的完整演化
+- **Cross-Platform Deployment**: With the help of Capacitor, the management interface can be packaged into a mobile App.
 
-这不是传统的图表，而是一个可交互的**决策宇宙**。每一个重大判断，都在这里留下星轨。
+## 🌌 Galaxy Engine: A New Dimension of Decision Visualization
+> The open-source version provides basic galaxy rendering (2D orbits, fundamental celestial body classification). The enterprise version includes enhanced features (3D galaxies, real-time gravitational simulation, customizable celestial types, compliance report export).
 
-## 🛠️ 技术栈
-- **后端引擎**：Node.js
-- **前端界面**：Vue3 + TypeScript
-- **打包工具**：Capacitor（用于 iOS/Android 打包）
-- **存储**：PostgreSQL
+CronusCycle's core visualization engine, the **Galaxy Engine**, maps the decision-making process as an astrophysical phenomenon:
 
-## 🚀 快速开始
+- **Gravitational Fields**: The pull of external influencing factors (market, competitors, policies) on decision orbits
 
-### 前置要求
+- **Celestial Body Classification**: Information sources are automatically parsed into:
+
+	- **Stars**: Core decision-makers (CEO, Board of Directors)
+
+	- **Planets**: Long-term execution layer/key influencers (CFO, department heads)
+
+	- **Comets**: External consultants, temporary information
+
+	- **Meteors**: Noise, one-time events
+
+	- **Black Holes**: High-risk points, unknown territories
+
+- **Orbital Tracing**: Completely records the decision path, allowing backtracking of every deviation caused by "gravitational effects"
+
+- **Time-lapse Replay**: Drag the timeline to observe the complete evolution of the decision galaxy from initialization to the present
+
+This is not a traditional chart, but an interactive **decision universe**. Every major judgment leaves its star trail here.
+
+## 🛠️ Tech Stack
+- **Backend Engine**: Node.js
+
+- **Frontend Interface**: Vue3 + TypeScript
+
+- **Packaging Tool**: Capacitor (for iOS/Android packaging)
+
+- **Storage**: PostgreSQL
+
+## 🚀 Quick Start
+### Prerequisites
 - Node.js 16+
 - npm/yarn
 
-### 安装与运行
+### Installation & Running
 ```bash
-# 克隆仓库
+# Clone the repository
+
 git clone https://github.com/zerora-labs/cronus-cycle.git
 cd cronuscycle
 
-# 安装依赖
+# Install dependencies
 npm install
 
-# 启动后端服务
+# Start the backend service
 node app.js
 
-# 启动前端开发服务器
+# Start the frontend development server
 npm run dev
 
-# 访问 http://localhost:5173 查看前端界面
-
+# Visit http://localhost:5173 to view the frontend interface
 ```
 
-## 📄 开源许可
+## 📄 Open Source License
+The CronusCycle core framework (including basic audit algorithms, plugin interfaces, and example code) is open-sourced under the **MIT License**.
+You are free to use, modify, and distribute this software under the terms of the MIT License, including for commercial purposes, provided that you retain the original copyright notice.
 
-CronusCycle 核心框架（包括基础审计算法、插件接口和示例代码）采用 **MIT License** 开源。  
-你可以在遵守 MIT 协议的前提下自由使用、修改、分发本软件，包括用于商业目的，但需保留原始版权声明。
+**Note**: The AI slot example code included in the project (e.g., examples for calling third-party APIs) is also based on the MIT License, but when actually used, you must comply with the respective terms of service of the APIs being called.
 
-**注意**：项目中包含的 AI 插槽示例代码（如调用第三方 API 的示例）同样基于 MIT 协议，但实际使用时请遵守所调用 API 的各自服务条款。
+## 💼 Enterprise Edition (Commercial License)
+CronusCycle Enterprise is the commercial version designed for high-net-worth individuals and enterprise clients, offering:
 
-## 💼 企业版（商业许可）
+- Pre-trained industry-specific AI models (executive decision-making, talent assessment)
 
-CronusCycle Enterprise 是面向高净值个人和企业客户的商业版本，提供：
+- Advanced audit algorithms (e.g., bias identification, stability prediction)
 
-- 预训练的行业专用 AI 模型（高管决策、人才评估）
-- 高级审计算法（如偏差识别、稳定性预测）
-- 企业级可视化仪表盘与合规报告
-- 私有化部署与数据内网处理
-- 专属技术支持与 SLA 保障
+- Enterprise-grade visualization dashboards and compliance reports
 
-企业版采用**闭源商业许可**，需购买授权后方可使用。如需了解详情或获取试用，请联系：[Zerora](https://zerora.cn)
+- On-premises deployment and data processing within your internal network
 
-## ™️ 商标声明
+- Dedicated technical support and SLA guarantees
 
-CronusCycle 名称、Logo 及相关标识是 Zerora 的未注册商标（申请中）。  
-未经书面授权，不得将 CronusCycle 商标用于任何商业推广或误导性宣传。
+The Enterprise Edition is distributed under a **closed-source commercial license** and requires a purchased license for use. For more details or to request a trial, please contact: [Zerora](https://zerora.cn)
 
-## 🚧 项目状态
+## ™️ Trademark Statement
+CronusCycle name, Logo, and related identifiers are unregistered trademarks (application in progress) of Zerora.
+Unauthorized use of the CronusCycle trademark for any commercial promotion or misleading publicity is strictly prohibited.
 
-当前版本：v0.1.0（开发预览版）  
-我们正在积极开发中，欢迎通过 Issues 反馈问题或建议。  
+## 🚧 Project Status
+Current Version: v0.1.0 (Development Preview)
+We are actively developing. Welcome to report issues or suggestions via Issues.
 
-## 🤝 贡献者协议
-
-我们欢迎社区贡献！为了确保项目能够持续发展并保护贡献者的权益，所有代码贡献者需签署 **贡献者许可协议（CLA）**，授予项目维护者将贡献代码用于开源核心及商业版本的权限。详细信息请参阅 [CONTRIBUTING.md](CONTRIBUTING.md)。
+## 🤝 Contributor Agreement
+We welcome community contributions! To ensure the sustainable development of the project and protect the rights of contributors, all code contributors are required to sign a **Contributor License Agreement (CLA)**. This grants project maintainers the permission to use contributed code in both the open-source core and the commercial version. For detailed information, please refer to  [CONTRIBUTING.md](CONTRIBUTING.md).
