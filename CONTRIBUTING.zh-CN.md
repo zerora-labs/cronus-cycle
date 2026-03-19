@@ -4,7 +4,7 @@
 
 ## 行为准则
 
-本项目及所有参与人员均需遵守我们的[行为准则](CODE_OF_CONDUCT.md)。参与即表示你同意遵守该准则。
+本项目及所有参与人员均需遵守我们的[行为准则](CODE_OF_CONDUCT.zh-CN.md)。参与即表示你同意遵守该准则。
 
 ## 重要：贡献者许可协议（CLA）
 
@@ -24,7 +24,7 @@ CronusCycle 采用 **Open Core** 模式：
 2. 点击链接，审阅协议内容，并在线签署（一次签署，终身有效）。
 3. 签署完成后，你的 PR 即可进入审核流程。
 
-如果你希望手动签署，可以从 [CLA.md](CLA.md) 下载协议，并将签署后的扫描件发送至 [bruce@zerora.cn](mailto:bruce@zerora.cn)。
+如果你希望手动签署，可以从 [CLA.zh-CN.md](CLA.zh-CN.md) 下载协议，并将签署后的扫描件发送至 [bruce@zerora.cn](mailto:bruce@zerora.cn)。
 
 ## 如何贡献？
 
