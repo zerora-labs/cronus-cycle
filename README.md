@@ -102,7 +102,7 @@ CronusCycle name, Logo, and related identifiers are unregistered trademarks (app
 Unauthorized use of the CronusCycle trademark for any commercial promotion or misleading publicity is strictly prohibited.
 
 ## 🚧 Project Status
-Current Version: v0.1.0 (Development Preview)
+Current Version: v0.1.1 (Development Preview)
 We are actively developing. Welcome to report issues or suggestions via Issues.
 
 ## 🤝 Contributor Agreement
